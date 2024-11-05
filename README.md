@@ -1,2 +1,2 @@
-#JavaFX app
+# JavaFX app
 It new app.
