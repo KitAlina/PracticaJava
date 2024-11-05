@@ -9,7 +9,7 @@ services:
     environment:
       MYSQL_ROOT_USER: javafxTest
       MYSQL_ROOT_PASSWORD: changeme
-      MYSQL_DATABASE: vetclinica
+      MYSQL_DATABASE: vetcli
       MYSQL_USER: javafxTest
       MYSQL_PASSWORD: 7771
     volumes:
