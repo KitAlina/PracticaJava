@@ -14,6 +14,6 @@ services:
       MYSQL_PASSWORD: 7771
     volumes:
       - ${PWD}/mariadb:/var/lib/mysql
-      - ./init.sql:/data/application/DB.sql
+      - ./DB.sql:/data/application/DB.sql
 
     # network_mode: "host"
