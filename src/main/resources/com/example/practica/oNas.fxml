@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane prefHeight="410.0" prefWidth="604.0" style="-fx-background-color: #ece7e3;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.practica.ONas">
+   <children>
+      <AnchorPane layoutX="-43.0" prefHeight="400.0" prefWidth="238.0" style="-fx-background-color: #4e312b;" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button fx:id="vuhod" layoutX="70.0" layoutY="302.0" mnemonicParsing="false" style="-fx-background-color: #33201d;" text="Вернуться обратно" textFill="#ece7e3">
+               <font>
+                  <Font name="Segoe Print" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <TextFlow fx:id="OnasText" layoutX="213.0" layoutY="63.0" prefHeight="281.0" prefWidth="365.0">
+         <children>
+            <ImageView fx:id="image" fitHeight="162.0" fitWidth="165.0" pickOnBounds="true" preserveRatio="true" />
+         </children></TextFlow>
+      <AnchorPane layoutX="194.0" layoutY="-4.0" prefHeight="67.0" prefWidth="410.0" style="-fx-background-color: #4e312b;" AnchorPane.leftAnchor="193.60000000000002" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Label layoutX="169.0" layoutY="12.0" text="О нас" textFill="#ece7e3">
+               <font>
+                  <Font name="Segoe Print" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -13,7 +13,7 @@ services:
       MYSQL_USER: javafxTest
       MYSQL_PASSWORD: 7771
     volumes:
-      - ${PWD}/mariadb:/var/lib/mysql
-      - ./DB.sql:/data/application/DB.sql
+      - C:\Users\malin\IdeaProjects\practica\db/mariadb:/var/lib/mysql
+      - C:\Users\malin\IdeaProjects\practica\db\DB.sql:/data/application/DB.sql
 
     # network_mode: "host"

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="402.0" prefWidth="602.0" style="-fx-background-color: #cfc2b8;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.practica.Author">
+   <children>
+      <TextField fx:id="log" layoutX="332.0" layoutY="206.0">
+         <font>
+            <Font name="Segoe Print" size="12.0" />
+         </font></TextField>
+      <TextField fx:id="pass" layoutX="332.0" layoutY="276.0">
+         <font>
+            <Font name="Segoe Print" size="12.0" />
+         </font></TextField>
+      <PasswordField fx:id="passF" layoutX="332.0" layoutY="276.0">
+         <font>
+            <Font name="Segoe Print" size="12.0" />
+         </font></PasswordField>
+      <Label layoutX="255.0" layoutY="210.0" text="Логин">
+         <font>
+            <Font name="Segoe Print" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="251.0" layoutY="280.0" text="Пароль">
+         <font>
+            <Font name="Segoe Print" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="256.0" layoutY="109.0" prefHeight="54.0" prefWidth="253.0" text="Авторизация">
+         <font>
+            <Font name="Segoe Print" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="vhod" layoutX="353.0" layoutY="356.0" mnemonicParsing="false" style="-fx-background-color: #4e312b;" text="Войти" textFill="#cfc2b8">
+         <font>
+            <Font name="Segoe Print Bold" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="image" fitHeight="85.0" fitWidth="92.0" layoutX="332.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@photo/pet-house.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4e312b" height="443.0" layoutX="-55.0" stroke="#a89ba6" strokeType="INSIDE" width="235.0" AnchorPane.bottomAnchor="0.19999999999998863" AnchorPane.topAnchor="0.0" />
+      <CheckBox fx:id="check" layoutX="332.0" layoutY="317.0" mnemonicParsing="false" onAction="#chenge" text="Увидеть пароль">
+         <font>
+            <Font name="Segoe Print" size="12.0" />
+         </font></CheckBox>
+   </children>
+</AnchorPane>
